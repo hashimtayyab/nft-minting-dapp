@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.neonlogo{
+  height: 200px;
+}
+
+span{
+  color: aliceblue;
+}
+.liveNow{
+  color: #fff;
+  font-size: 50px;
+
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 92px #fff,
+  0 0 151px #fff;
+}
+
+#variableamnt{
+  color:#fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+.labeling{
+  font-family: 'Courier New', Courier, monospace;
+  color:darkgrey ;
+  margin-bottom: -15px;
+}
+
+.items{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+
+img{
+  height: 300px;
+}
+
+#inputPrice input{
+  border-radius: 10px;
+}
+
+.mintbutton {
+  padding:10px;
+  border:none;
+  color:#fff;
+  font-weight:600;
+  background: linear-gradient(to top, #b53efa 0%, #af468c 100%);
+  height: 10vh;
+  font-size: large;
+  border-radius: 10px;
+
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 92px #fff,
+  0 0 151px #fff;
+}
+
+.link :hover{
+  cursor: pointer;
+}
+
+#items{
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#remaining{
+  font-size: 30px;
+}
+
+#top { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+}
+
+#link{
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.address{
+  color: aliceblue;
+}
+.address .row{
+  padding-top: 8px;
+  font-size: 18px;
+}
+
+.linkbtn__{
+  background: linear-gradient(to top, #b53efa 0%, #af468c 100%);
+  width: 100%;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.mintbtn :hover{
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.withdraw{
+  background: linear-gradient(to top, #b53efa 0%, #af468c 100%);
+  width: 30%;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.container{
+  max-width: inherit;
+}
+
+
+.neonText {
+  color: #fff;
+  font-family:'Brush Script MT', cursive;
+  font-size: 80px;
+
+
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 92px #fff,
+  0 0 151px #fff;
+
+}
+
+h1 {
+  font-size: 4.2rem;    
+}
